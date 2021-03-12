@@ -31,7 +31,7 @@ export default convertToHTML({
       return (
         <span
           style={{
-            fontSize: parseInt(style.replace(STYLE_TYPE.FONTS_SIZE, "")),
+            fontSize: parseInt(style.replace(STYLE_TYPE.FONTS_SIZE, ""), 10),
           }}
         />
       );
