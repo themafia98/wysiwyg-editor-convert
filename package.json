@@ -32,14 +32,16 @@
     "draft",
     "draftjs",
     "draft-convert",
-    "convert"
+    "convert",
+    "react-draft-wysiwyg"
   ],
   "author": "gaara33377@gmail.com",
   "license": "Apache-2.0",
   "peerDependencies": {
     "draft-js": ">=0.7.0",
     "react": "^17.0.1",
-    "react-dom": "^17.0.1"
+    "react-dom": "^17.0.1",
+    "react-draft-wysiwyg": "^1.14.5"
   },
   "dependencies": {
     "@babel/runtime": "^7.5.5",
