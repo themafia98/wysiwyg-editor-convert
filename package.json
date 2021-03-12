@@ -1,6 +1,6 @@
 {
   "name": "wysiwyg-editor-convert",
-  "private":false,
+  "private": false,
   "version": "0.1.0",
   "description": "Convert react-draft-wysiwyg to html",
   "main": "lib/index.js",
@@ -43,6 +43,7 @@
   },
   "dependencies": {
     "@babel/runtime": "^7.5.5",
+    "draft-convert": "^2.1.10",
     "immutable": "~4.0.0-rc.12",
     "invariant": "^2.2.1"
   },
