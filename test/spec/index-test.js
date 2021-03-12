@@ -2,6 +2,7 @@
 
 describe("Test of test", () => {
     it("shoud be test", () => {
-        console.log('123');
+        // eslint-disable-next-line no-console
+        console.log('should be implement in future');
     });
 })
